@@ -618,6 +618,7 @@ class GRBLDriver(Parameters):
 
         @return:
         """
+        print(">>> sto usando $H")
         old_current = self.service.current
         self.native_x = 0
         self.native_y = 0
